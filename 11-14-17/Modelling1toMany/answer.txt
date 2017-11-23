@@ -1,0 +1,4 @@
+1. Find the author with the name 'Kara Melton' and then select all the articles she has written.
+Select
+
+SELECT title FROM articles WHERE author_id = (SELECT id FROM authors WHERE name = 'Kara Melton');
