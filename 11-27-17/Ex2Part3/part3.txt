@@ -1,0 +1,7 @@
+1. Album.find_by(title:"Vinicius De Moraes").tracks
+
+2. Artist.find_by(name:"Philip Glass Ensemble").albums
+
+3.
+@playlist = Playlist.find_by(name:"Brazilian Music")
+@playlist.tracks
